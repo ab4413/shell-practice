@@ -8,7 +8,7 @@ echo "current user (or) User running the script: $USER"
 echo "Home directory of the user: $HOME"
 echo "PID of the script: $$"
 echo "PID of thhe last comand executed: $1"
-echo "Exit status of the last command executed: $?
+echo "Exit status of the last command executed: $?"
 
 sleep 10 &
 echo "PID of last command in background: $!"
