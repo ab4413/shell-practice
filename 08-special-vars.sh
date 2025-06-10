@@ -11,4 +11,4 @@ echo "PID of thhe last comand executed: $1"
 echo "Exit status of the last command executed: $?
 
 sleep 10 &
-echo "Pid of the last command executed in the background: $!"
+echo "PID of last command in background: $!"
