@@ -6,5 +6,5 @@ if [ $NUMBER -lt 10 ]
 then
     echo "The given number is less than 10"
 else
-    echo "The given number is not less tha 10"
+    echo "The given number is not less than 10"
 fi
