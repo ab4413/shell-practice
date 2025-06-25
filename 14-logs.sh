@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 USERID=$(id -u) # Get the user ID of the current user
 R="\e[31m" # Red color
 G="\e[32m" # Green color
