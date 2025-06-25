@@ -1,5 +1,3 @@
-#!/bin/bash
-
 USERID=$(id -u) # Get the user ID of the current user
 R="\e[31m" # Red color
 G="\e[32m" # Green color
@@ -10,7 +8,8 @@ LOGS_FOLDER="/var/logs/shellscript-logs" # Define the logs folder
 SCRIPT_NAME=$(echo $0 | cut -d "." -f1) # Get the script name without extension
 LOG_FILE="$LOGS_FOLDER/$SCRIPT_NAME.log" # Define the log file path
 
-MKDIR -p $LOG_FOLDER
+mkdir -p $LOGS_FOLDER
+
 echo "Script started executing at : $(date)" | tee -a $LOG_FILE # Log the start time of the script
 if [ $USERID -ne 0 ]
 then 
